@@ -25,3 +25,9 @@ sudo apt-get install  php7.1-xdebug;
 sudo apt update;
 sudo apt install mysql-server -y;
 sudo apt-get update;
+sudo apt-get install git;
+
+cd /var/www/html;
+git clone   https://github.com/smallik123/suitecrm.git;
+sudo chmod -R 777  *;
+
