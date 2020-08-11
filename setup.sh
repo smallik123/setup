@@ -1,7 +1,7 @@
 #!/bin/bash
 apt-get update update;
 sudo apt-get update;
-sudo apt-get install vim -y;
+#sudo apt-get install vim -y;
 sudo apt-get install apt-utils -y;
 sudo apt-get update;
 sudo apt-get install apache2 -y;
