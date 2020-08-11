@@ -23,7 +23,7 @@ sudo apt-get install  php7.1-sybase freetds-common freetds-bin ;
 sudo apt-get install  php7.1-xdebug;
 
 sudo apt update;
-sudo apt install mysql-server -y;
+sudo apt install mysql-server;
 sudo apt-get update;
 sudo apt-get install git;
 
@@ -37,3 +37,7 @@ sudo chmod -R 777  *;
 #FLUSH PRIVILEGES;
 #Mysql -u root -pCRMMysql1
 #Exit;
+
+#sudo apt-get remove --purge mysql*
+#sudo apt-get autoremove
+#sudo apt-get autoclean
