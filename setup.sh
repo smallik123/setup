@@ -32,8 +32,8 @@ git clone   https://github.com/smallik123/suitecrm.git;
 sudo chmod -R 777  *;
 
 #sudo mysql
-$#ELECT user,authentication_string,plugin,host FROM mysql.user;
-#LTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'CRMMysql1';
-#LUSH PRIVILEGES;
-#ysql -u root -pCRMMysql1
-#xit;
+#SELECT user,authentication_string,plugin,host FROM mysql.user;
+#ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'CRMMysql1';
+#FLUSH PRIVILEGES;
+#Mysql -u root -pCRMMysql1
+#Exit;
