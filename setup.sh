@@ -28,7 +28,7 @@ sudo apt-get update;
 sudo apt-get install git;
 
 cd /var/www/html;
-git clone   https://github.com/smallik123/suitecrm.git;
+sudo git clone   https://github.com/smallik123/suitecrm.git;
 sudo chmod -R 777  *;
 
 #sudo mysql
